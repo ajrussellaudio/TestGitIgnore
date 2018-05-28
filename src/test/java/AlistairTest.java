@@ -9,7 +9,7 @@ public class AlistairTest {
 
     @Before
     public void setUp() throws Exception {
-        alistair = new Alistair(26);
+        alistair = new Alistair(26, "Java");
     }
 
     @Test
@@ -25,5 +25,10 @@ public class AlistairTest {
     @Test
     public void hasName() {
         assertEquals("Big Daddy Kane", alistair.getName());
+    }
+
+    @Test
+    public void hasFavLanguage(){
+        assertEquals("Java", alistair.getFavouriteLanguage());
     }
 }
