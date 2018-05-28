@@ -1,15 +1,16 @@
+import models.Al;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-public class AlistairTest {
-    private Alistair alistair;
+public class AlTest {
+    private Al alistair;
 
     @Before
     public void setUp() throws Exception {
-        alistair = new Alistair(26, "Java");
+        alistair = new Al("Big Daddy Kane", 26, "Java");
     }
 
     @Test
